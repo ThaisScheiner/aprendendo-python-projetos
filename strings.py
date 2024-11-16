@@ -186,11 +186,36 @@ p = 'Bóson Treinamentos'
 print(p.endswith('s'))
 
 
-
-"""
 # prefixos e sulfixos
 # dentro da variavel p, o texto termina com a sequencia de caracteres's'
 # endswith = sulfixos
 p = 'Bóson Treinamentos'
 print(p.endswith('s'))
+
+
+
+"""
+
+# Docstrings = documentar trechos especificos do codigo
+# como módulo, classe, função. Texto com varias linhas
+# exemplo abaixo
+"""
+Docstring é uma espécie de documentação
+que podemos inserir dentro de um módulo, função
+ou classe no Python, entre outros locais.
+    Respeita deslocamento do texto e é  multilinhas
+
+"""
+
+
+
+
+texto = """
+Docstring é uma espécie de documentação
+que podemos inserir dentro de um módulo, função
+ou classe no Python, entre outros locais.
+    Respeita deslocamento do texto e é  multilinhas
+    
+"""
+print(texto)
  
